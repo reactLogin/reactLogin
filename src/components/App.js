@@ -1,4 +1,5 @@
 import React, {PropTypes} from 'react';
+import GoogleLogin from './common/GoogleLogin';
 
 class App extends React.Component {
 
@@ -6,6 +7,7 @@ class App extends React.Component {
         return (
             <div>
                 <p>React Login App</p>
+                <GoogleLogin />
                 {this.props.children}
             </div>
         )
